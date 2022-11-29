@@ -1,0 +1,84 @@
+@import "./params/mix";
+@import "./header.less";
+@import "./main.less";
+@import "./result.less";
+@import "./work.less";
+@import "./carusel.less";
+@import "./bottom.less";
+@import "./footer.less";
+
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Roboto', sans-serif;
+html{
+  scroll-behavior: smooth;
+}
+p.text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(102, 102, 102, 1);
+  .md-block({
+    font-size: 12px;
+    line-height: 20px;  
+  })
+}
+
+button.BgGreen {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: white;
+  padding: 18px 30px;
+  border-radius: 6px;
+  background-color: rgba(6, 113, 100, 1);
+  border: none;
+  .md-block({
+    padding: 10px 20px;
+  })
+}
+
+.errorMsg {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: none;
+}
+
+span.uno {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  .md-block({
+    font-size: 12px;
+  })
+}
+
+h2.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 64px;
+  color: black;
+  .md-block({
+    font-size: 25px;
+    line-height: 35px;
+  })
+}
+.activeBars {
+  display: none;
+  .md(display , block);
+}
+
+.activeMenuBars {
+  display: block;
+  .md(display , none);
+}

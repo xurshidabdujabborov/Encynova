@@ -1,0 +1,49 @@
+.work{
+    width: 100%;
+    margin-top: 120px;
+    background: rgba(249, 249, 249, 1);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    .img{
+        position: relative;
+        img{
+            width: 100%;
+        }
+    }
+    .lil{
+        position: absolute;
+        top: 60%;
+        right: 80%;
+        .md-block({
+            top: 50%;
+            right: 50%;
+        });
+        .sm-block({
+            right: 50%;
+        });
+        img{
+            .sm-block({
+                width: 100px;
+                height: 100px;
+            })
+        }
+    }
+    h2.title{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .form{
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        .md-block({
+            top: 60%;
+            right: 5%;
+        });
+        img{
+            .sm-block({
+                width: 100%;
+            })
+        }
+    }
+}
